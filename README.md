@@ -1,6 +1,9 @@
 # Mecmotor
 The `mecmotor` library provides functions for controlling two L298N motor drivers with predefined pins and also supports custom definition . The library allows easy manipulation of the Mecanum wheels for forward, backward, strafe, and diagonal movements.
 
+![Arduino Library Manager](https://img.shields.io/badge/ArduinoLib-MecMotor-brightgreen?style=flat
+)
+
 > A simple Arduino library to control a 4-wheel mecanum robot using two L298N motor drivers on an `ESP32` or `Any Microcontroller`.
 > Created by **Beastbroak30** – used in the project [ESP-NOW Mecanum Car RC project](https://github.com/beastbroak30/ESP-NOW_mecanum-carRC/).
 
