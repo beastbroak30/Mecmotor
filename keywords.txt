@@ -1,0 +1,16 @@
+
+# Class
+mecmotor	KEYWORD1
+
+# Methods
+forward	        KEYWORD2
+backward	KEYWORD2
+left		KEYWORD2
+right		KEYWORD2
+strafer		KEYWORD2
+strafel		KEYWORD2
+pivotfr		KEYWORD2
+pivotfl		KEYWORD2
+pivotbr		KEYWORD2
+pivotbl		KEYWORD2
+stop		KEYWORD2
