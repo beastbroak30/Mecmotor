@@ -160,7 +160,7 @@ It uses ESP-NOW for wireless control of a fully mecanum-driven robot — built f
 
 ## 🧑‍💻 Author & Contributor
 
-**Beastbroak30**
+### Beastbroak30
 Email: `akantarip30@gmail.com`
 GitHub: [@beastbroak30](https://github.com/beastbroak30)
 
