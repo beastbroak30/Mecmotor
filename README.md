@@ -111,7 +111,7 @@ void loop() {
 
 ---
 
-## 🧐 API Reference
+## 🧐 Function  Reference
 
 | Function              | Description          |
 | --------------------- | -------------------- |
