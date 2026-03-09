@@ -1,16 +1,95 @@
+# Mecmotor Library Keywords
+# Syntax Coloring for Arduino IDE
+# Version 1.2.0
 
-# Class
+#######################################
+# Classes (KEYWORD1)
+#######################################
+
+Mecmotor	KEYWORD1
 mecmotor	KEYWORD1
+MecMotorConfig	KEYWORD1
+MotorPinsL298N	KEYWORD1
+MotorPinsCytron	KEYWORD1
+MotorPinsDRV8833	KEYWORD1
 
-# Methods
-forward	        KEYWORD2
+#######################################
+# Enums (KEYWORD1)
+#######################################
+
+DriverType	KEYWORD1
+StopMode	KEYWORD1
+Motor	KEYWORD1
+
+#######################################
+# Enum Values (LITERAL1)
+#######################################
+
+L298N	LITERAL1
+TB6612	LITERAL1
+DRV8833	LITERAL1
+CYTRON_MD	LITERAL1
+COAST	LITERAL1
+BRAKE	LITERAL1
+FL	LITERAL1
+FR	LITERAL1
+BL	LITERAL1
+BR	LITERAL1
+
+#######################################
+# Methods (KEYWORD2)
+#######################################
+
+# Initialization
+begin	KEYWORD2
+setInversion	KEYWORD2
+setMaxSpeed	KEYWORD2
+setDeadzone	KEYWORD2
+setRamping	KEYWORD2
+setStopMode	KEYWORD2
+
+# Basic Movement
+forward	KEYWORD2
 backward	KEYWORD2
-left		KEYWORD2
-right		KEYWORD2
-strafer		KEYWORD2
-strafel		KEYWORD2
-pivotfr		KEYWORD2
-pivotfl		KEYWORD2
-pivotbr		KEYWORD2
-pivotbl		KEYWORD2
-stop		KEYWORD2
+left	KEYWORD2
+right	KEYWORD2
+strafeRight	KEYWORD2
+strafeLeft	KEYWORD2
+strafer	KEYWORD2
+strafel	KEYWORD2
+diagonalFR	KEYWORD2
+diagonalFL	KEYWORD2
+diagonalBR	KEYWORD2
+diagonalBL	KEYWORD2
+pivotfr	KEYWORD2
+pivotfl	KEYWORD2
+pivotbr	KEYWORD2
+pivotbl	KEYWORD2
+stop	KEYWORD2
+brake	KEYWORD2
+coast	KEYWORD2
+
+# Advanced Drive
+drive	KEYWORD2
+driveAngle	KEYWORD2
+driveFieldCentric	KEYWORD2
+setMotorSpeed	KEYWORD2
+setMotorSpeeds	KEYWORD2
+
+# Non-blocking / Status
+update	KEYWORD2
+isRamping	KEYWORD2
+getMotorSpeed	KEYWORD2
+getTargetSpeed	KEYWORD2
+getVersion	KEYWORD2
+isInitialized	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MEC_DEBUG	LITERAL1
+MEC_PWM_FREQ	LITERAL1
+MEC_PWM_RESOLUTION	LITERAL1
+MEC_DEFAULT_DEADZONE	LITERAL1
+MEC_DEFAULT_ACCEL_RATE	LITERAL1
