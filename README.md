@@ -12,7 +12,7 @@
 
 ---
 
-## ✨ New in v1.2.0
+##  New in v1.2.0
 
 - **Multi-driver support**: L298N, TB6612FNG, DRV8833, Cytron MD10C/MDD10A
 - **Field-centric drive**: Joystick-style control that works regardless of robot orientation
@@ -27,7 +27,7 @@
 
 ---
 
-## 🚗 Overview
+##  Overview
 
 **Mecmotor** makes it easy to control a Mecanum-wheeled robot platform. Whether you're building a simple RC car or an advanced autonomous robot, Mecmotor provides:
 
@@ -49,7 +49,7 @@
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Arduino Library Manager (Recommended)
 
@@ -69,7 +69,7 @@ Copy to your Arduino libraries folder:
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### ESP32 with L298N (Default Pins)
 
@@ -149,7 +149,7 @@ void loop() {
 
 ---
 
-## 🔌 Wiring Diagrams
+##  Wiring Diagrams
 
 ### L298N Dual Driver Setup
 
@@ -216,7 +216,7 @@ Mecmotor robot(DriverType::CYTRON_MD,
 
 ---
 
-## 📚 API Reference
+##  API Reference
 
 ### Constructors
 
@@ -288,7 +288,7 @@ Mecmotor robot(DriverType::CYTRON_MD,
 
 ---
 
-## 🛠️ Advanced Examples
+## Advanced Examples
 
 ### Smooth Ramping Demo
 
@@ -359,7 +359,7 @@ void setup() {
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 Mecmotor/
@@ -380,7 +380,7 @@ Mecmotor/
 
 ---
 
-## 🎯 Use Cases
+## Use Cases
 
 - **RC Cars**: Hobby robotics, ESP-NOW remote control
 - **Competition Robots**: FTC, WRO, MakeX mecanum platforms
@@ -390,7 +390,7 @@ Mecmotor/
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please:
 
@@ -400,7 +400,7 @@ Contributions are welcome! Please:
 
 ---
 
-## 📜 License
+##  License
 
 MIT License - see [LICENSE](LICENSE) file.
 
@@ -426,7 +426,7 @@ It uses ESP-NOW for wireless control of a fully mecanum-driven robot — built f
 
 ---
 
-## 🧑‍💻 Author & Contributor
+##  Author & Contributor
 
 ### Beastbroak30
 Email: `akantarip30@gmail.com`
@@ -434,10 +434,10 @@ GitHub: [@beastbroak30](https://github.com/beastbroak30)
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-Enjoy building awesome bots! 🤖✨
+Enjoy building awesome bots! 
